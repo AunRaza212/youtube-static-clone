@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<!DOCTYPE css>
+<html lang="en">
+  <head>
+    <title>Youtube</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/general.css" />
+    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/video.css" />
+    <link rel="stylesheet" href="/styles/sidebar.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="setting" src="./images/setting logo.svg" />
+        <img class="youtube-logo" src="./images/youtube-logo.svg" />
+      </div>
+      <div class="middle-section">
+        <input class="searchbar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="./images/search.svg" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-icon" src="./images/voice-search-icon.svg" />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <div class="upload-container">
+            <img class="upload-icon" src="./images/upload.svg" />
+            <div class="upload-tooltip">
+              <div class="upload-tooltip-name">Upload Video</div>
+              <div class="upload-tooltip-name2">Go Live</div>
+            </div>
+          </div>
+
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-container">
+          <img class="youtube-apps-icon" src="./images/youtube-apps.svg" />
+          <div class="tooltip">Youtube apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <div class="notifications-container">
+            <img class="notifications-icon" src="./images/notifications.svg" />
+            <div class="tooltip">Notifications</div>
+          </div>
+          <div class="notification-count">3</div>
+        </div>
+        <img class="current-user-picture" src="./images/unnamed.jpg" />
+      </div>
+    </header>
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="./images/home.svg" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="./images/explore.svg" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="./images/subscriptions.svg" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="./images/originals.svg" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="./images/youtube-music.svg" />
+        <div>Youtube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="./images/library.svg" alt="" />
+        <div>Library</div>
+      </div>
+    </nav>
+    <main class="video-grid">
+      <section class="video-preview">
+        <div class="thumbnail-row">
+          <img class="image" , src="./thumbnail/first video.webp" alt="" />
+          <div class="video-time">10:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <div class="profile-picture-container">
+              <a href="https://youtube.com/c/mkbhd" target="_blank">
+                <img class="profile" src="./images/kevin.jpg" />
+              </a>
+              <div class="channel-tooltip">
+                <img
+                  class="channel-tooltip-picture"
+                  src="./images/kevin.jpg"
+                />
+                <div>
+                  <div class="channel-tooltip-name">Kevin Fang</div>
+                  <div class="channel-tooltip-stats">97.7k subscribers</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Dev Deletes Entire Production Database, Chaos Ensues
+            </p>
+            <p class="video-author">Kevin Fang</p>
+            <p class="video-stats">1.6M views &#183; 3 months ago</p>
+          </div>
+        </div>
+      </section>
+      <section class="video-preview">
+        <div class="thumbnail-row">
+          <img class="image" , src="./thumbnail/second video.webp" alt="" />
+          <div class="video-time">6:31:23</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <div class="profile-picture-container">
+              <a href="https://www.youtube.com/@SuperSimpleDev" target="_blank"
+                ><img class="profile" src="./images/unnamed.jpg"
+              /></a>
+              <div class="channel-tooltip">
+                <img
+                  class="channel-tooltip-picture"
+                  src="./images/unnamed.jpg"
+                />
+                <div>
+                  <div class="channel-tooltip-name">SuperSimpleDev</div>
+                  <div class="channel-tooltip-stats">275k subscribers</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title">HTML & CSS Full Course - Beginner to Pro</p>
+            <p class="video-author">SuperSimpleDev</p>
+            <p class="video-stats">6M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </section>
+      <section class="video-preview">
+        <div class="thumbnail-row">
+          <img class="image" , src="./thumbnail/thumbnail 3.webp" alt="" />
+          <div class="video-time">0:21</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <div class="profile-picture-container">
+              <a href="https://www.youtube.com/@abhayakeditz" target="_blank"
+                ><img class="profile" src="./channel-pic/3rd pic.jpg"
+              /></a>
+              <div class="channel-tooltip">
+                <img
+                  class="channel-tooltip-picture"
+                  src="./channel-pic/3rd pic.jpg"
+                />
+                <div>
+                  <div class="channel-tooltip-name">Abhay Ak</div>
+                  <div class="channel-tooltip-stats">3.94k subscribers</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Jujutsu Kaisen Season 2 &quot;Shibuya Incident Arc&quot; - Way
+              Down We Go [Edit/AMV]!
+            </p>
+            <p class="video-author">Abhay Ak</p>
+            <p class="video-stats">4.7K views &#183; 5 hours ago</p>
+          </div>
+        </div>
+      </section>
+      <section class="video-preview">
+        <div class="thumbnail-row">
+          <img class="image" , src="./thumbnail/thumbnail 4th.webp" alt="" />
+          <div class="video-time">16:23</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <div class="profile-picture-container">
+              <a href="https://www.youtube.com/@VinceVintage" target="_blank"
+                ><img class="profile" , src="./channel-pic/4th pic.jpg"
+              /></a>
+
+              <div class="channel-tooltip">
+                <img
+                  class="channel-tooltip-picture"
+                  src="./channel-pic/4th pic.jpg"
+                  alt=""
+                />
+                <div>
+                  <div class="channel-tooltip-name">Vince Vintage</div>
+                  <div class="channel-tooltip-stats">1M subscribers</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              How This Device illegally Won $44.9 Million From Las Vegas
+            </p>
+            <p class="video-author">Vince Vintage</p>
+            <p class="video-stats">3.3M views &#183; 11 months ago</p>
+          </div>
+        </div>
+      </section>
+      <section class="video-preview">
+        <div class="thumbnail-row">
+          <img class="image" , src="./thumbnail/thumbnail 5th.webp" alt="" />
+          <div class="video-time">4:02</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <div class="profile-picture-container">
+              <a href="https://www.youtube.com/@spongekwstas" target="_blank"
+                ><img class="profile" , src="./channel-pic/5th pic.jpg"
+              /></a>
+              <div class="channel-tooltip">
+                <img
+                  class="channel-tooltip-picture"
+                  src="/channel-pic/5th pic.jpg"
+                />
+                <div>
+                  <div class="channel-tooltip-name">spongekwstas</div>
+                  <div class="channel-tooltip-stats">16.8k subscribers</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title">Bleach OST 3-Clavar La Espada</p>
+            <p class="video-author">spongekwstas</p>
+            <p class="video-stats">24M views &#183; 14 years ago</p>
+          </div>
+        </div>
+      </section>
+      <section class="video-preview">
+        <div class="thumbnail-row">
+          <img class="image" , src="./thumbnail/thumbnail 6th.webp" alt="" />
+          <div class="video-time">5:12</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <div class="profile-picture-container">
+              <a href="https://www.youtube.com/@breakingbad" target="_blank"
+                ><img class="profile" , src="./channel-pic/6th picjpg.jpg"
+              /></a>
+              <div class="channel-tooltip">
+                <img
+                  class="channel-tooltip-picture"
+                  src="./channel-pic/6th picjpg.jpg"
+                  alt=""
+                />
+                <div>
+                  <div class="channel-tooltip-name">
+                    Breaking Bad & Better Call Saul
+                  </div>
+                  <div class="channel-tooltip-stats">706k subscribers</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Howard's Very Last Speech | Plan And Execution | Better Call Saul
+            </p>
+            <p class="video-author">Breaking Bad & Better Call Saul</p>
+            <p class="video-stats">725K views &#183; 1 month ago</p>
+          </div>
+        </div>
+      </section>
+      <section class="video-preview">
+        <div class="thumbnail-row">
+          <img class="image" , src="./thumbnail/thumbnail 7.webp" alt="" />
+          <div class="video-time">5:12</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <div class="profile-picture-container">
+              <a
+                href="https://www.youtube.com/@Blackjackapprenticeship"
+                target="_blank"
+                ><img class="profile" , src="./channel-pic/7th pic.jpg"
+              /></a>
+
+              <div class="channel-tooltip">
+                <img
+                  class="channel-tooltip-picture"
+                  src="./channel-pic/7th pic.jpg"
+                  alt=""
+                />
+                <div>
+                  <div class="channel-tooltip-name">
+                    Blackjack Apprenticeship
+                  </div>
+                  <div class="channel-tooltip-stats">1M subscribers</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title">Common Mistakes New Card Counters Make</p>
+            <p class="video-author">Blackjack Apprenticeship</p>
+            <p class="video-stats">325K views &#183; 4 years ago</p>
+          </div>
+        </div>
+      </section>
+      <section class="video-preview">
+        <div class="thumbnail-row">
+          <img class="image" , src="./thumbnail/thumbnail 8.webp" alt="" />
+          <div class="video-time">5:12</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <div class="profile-picture-container">
+              <a href="https://www.youtube.com/@kanyewest" target="_blank">
+                <img class="profile" src="./channel-pic/8th pic.jpg" alt="" />
+              </a>
+
+              <div class="channel-tooltip">
+                <img
+                  class="channel-tooltip-picture"
+                  src="./channel-pic/8th pic.jpg"
+                />
+                <div>
+                  <div class="channel-tooltip-name">Kanye West</div>
+                  <div class="channel-tooltip-stats">9.49M subscribers</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-info">
+            <p class="video-title">Power</p>
+            <p class="video-author">Kanye West</p>
+            <p class="video-stats">5.6M views &#183; 5 years ago</p>
+          </div>
+        </div>
+      </section>
+      <section class="video-preview">
+        <div class="thumbnail-row">
+          <img class="image" , src="./thumbnail/thumbnail 9thwebp.webp" alt="" />
+          <div class="video-time">5:12</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile" , src="./channel-pic/9th pic.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              How to Use MODERN POKER THEORY - $25,000 Buy-in
+            </p>
+            <p class="video-author">Daniel Negreanu</p>
+            <p class="video-stats">1.9M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </section>
+      <section class="video-preview">
+        <div class="thumbnail-row">
+          <img class="image" , src="./thumbnail/thumbnail 10.webp" alt="" />
+          <div class="video-time">5:12</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile" , src="./channel-pic/10th pic.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Inside The Navy's Indoor Ocean</p>
+            <p class="video-author">Veritasium</p>
+            <p class="video-stats">22M views &#183; 8 months ago</p>
+          </div>
+        </div>
+      </section>
+      <section class="video-preview">
+        <div class="thumbnail-row">
+          <img class="image" , src="./thumbnail/thumbnail 11.webp" alt="" />
+          <div class="video-time">5:12</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile" , src="./channel-pic/11th pic.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">The Most CONTROVERSIAL UFC Moments</p>
+            <p class="video-author">All Things MMA</p>
+            <p class="video-stats">3k views &#183; 9 hours ago</p>
+          </div>
+        </div>
+      </section>
+      <section class="video-preview">
+        <div class="thumbnail-row">
+          <img class="image" , src="./thumbnail/thumbnail 12webp.webp" alt="" />
+          <div class="video-time">5:12</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile" , src="./channel-pic/12th pic.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Coldplay - Viva la Vida (Lyrics)</p>
+            <p class="video-author">Dan Music</p>
+            <p class="video-stats">9.7M views &#183; 9 months ago</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
